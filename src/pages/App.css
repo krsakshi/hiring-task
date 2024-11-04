@@ -1,0 +1,98 @@
+/* src/App.css */
+
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f0f2f5; /* Soft background */
+  color: #333;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.App {
+  width: 100%;
+  max-width: 600px; /* A bit narrower for better focus */
+  padding: 30px;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  transition: transform 0.3s; /* Smooth hover effect */
+}
+
+.App:hover {
+  transform: translateY(-5px); /* Raise effect on hover */
+}
+
+h1 {
+  text-align: center;
+  color: #4a4a4a;
+  font-size: 2.5rem;
+  margin-bottom: 20px; /* Added margin for better spacing */
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+input {
+  padding: 15px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  transition: border-color 0.3s;
+  font-size: 1rem;
+}
+
+input:focus {
+  border-color: #6d6875;
+  outline: none;
+}
+
+button {
+  padding: 15px; /* Increased button padding */
+  background-color: #6d6875;
+  color: white;
+  border: none;
+  border-radius: 8px; /* More rounded corners */
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s; /* Added transform */
+  font-size: 1rem;
+}
+
+button:hover {
+  background-color: #4a4a4a;
+  transform: translateY(-2px); /* Lift effect on hover */
+}
+
+.title-list {
+  margin-top: 30px;
+  border-top: 1px solid #eaeaea;
+  padding-top: 20px;
+}
+
+.title-item {
+  padding: 15px;
+  border: 1px solid #eaeaea;
+  border-radius: 8px;
+  margin-bottom: 15px;
+  background-color: #fafafa;
+  font-size: 1.1rem;
+  transition: background-color 0.3s;
+}
+
+.title-item:hover {
+  background-color: #f1f1f1;
+}
+
+.logout-button {
+  margin-top: 30px;
+  background-color: #e63946;
+}
+
+.logout-button:hover {
+  background-color: #d62839;
+}
