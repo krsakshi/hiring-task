@@ -112,7 +112,7 @@ cd your-repo-name</code></pre>
 </ul>
 
 <h4>Login Screenshot</h4>
-<img src="path/to/your-image.jpg" alt="Description of image" width="300" height="200">
+<img src="Login.png" alt="Login image" width="950" height="500">
 
 <h3>Register Page</h3>
 <p>The registration page allows new users to create an account by entering their details:</p>
@@ -124,13 +124,13 @@ cd your-repo-name</code></pre>
 </ul>
 
 <h4>Register Screenshot</h4>
-<img src="path/to/your-image.jpg" alt="Description of image" width="300" height="200">
+<img src="Register.png" alt="Register image" width="950" height="500">
 
 <h3>Dashboard Page</h3>
 <p>The dashboard page is displayed after successful login and includes user-specific information. Users can view their details and manage their settings here.</p>
 
 <h4>Dashboard Screenshot</h4>
-<img src="path/to/your-image.jpg" alt="Description of image" width="300" height="200">
+<img src="Dashboard.png" alt="Dashboard image" width="950" height="500">
 
 
 </body>
